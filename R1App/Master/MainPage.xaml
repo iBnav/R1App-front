@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:R1App.Master.Navigation"
+             mc:Ignorable="d"
+             x:Class="R1App.NewFolder.MainPage" Title="Principal">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout Padding="10">
+                <Image Source="logoR1_redondo.png" HorizontalOptions="Center" HeightRequest="150"/>
+                <Label Text="Nome Sobrenome"/>
+                <Label Text="nome.sobrenome@email.com" />
+                <Label Text="(11)99999-9999" Margin="0,0,0,15" />
+                <Button Text="Minha Conta" BackgroundColor="#EEDC00" CornerRadius="10" />
+                <Button Text="Orçamento" Clicked="Orcamento_Clicked" BackgroundColor="#EEDC00" CornerRadius="10" />
+                <Button Text="Soluções" BackgroundColor="#EEDC00" CornerRadius="10" />
+                <Button Text="Simuladores" BackgroundColor="#EEDC00" CornerRadius="10" />
+                <Button Text="Portifólio" BackgroundColor="#EEDC00" CornerRadius="10" />
+                <Button Text="Blog" BackgroundColor="#EEDC00" CornerRadius="10" />
+                <Button Text="Contato" BackgroundColor="#EEDC00" CornerRadius="10" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage x:Name="Navegacao">
+            <x:Arguments>
+                <local:QuemSomos></local:QuemSomos>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

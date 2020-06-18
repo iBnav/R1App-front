@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="R1App.SendSMS">
+
+    <ContentPage x:Name="Send">
+        <StackLayout>
+            <Image Source="logoR1_redondo.png" HorizontalOptions="Center" HeightRequest="320" />
+            <Entry x:Name="txt_phoneNumber" FontSize="20" HorizontalOptions="Center" HorizontalTextAlignment="Center"  Placeholder="Por favor insira seu numero" Keyboard="Numeric" />
+            <Button Text="Enviar código" Margin="0,50,0,0" HorizontalOptions="Center" CornerRadius="20" WidthRequest="230" BackgroundColor="#EEDC00" TextColor="Black" Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage x:Name="Verify">
+        <StackLayout>
+            <Label Text="Por favor, digite o código SMS enviado" Margin="0,95,0,0" HeightRequest="200" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontSize="40" />
+            <Entry Placeholder="Código " Keyboard="Numeric" HorizontalTextAlignment="Center" HorizontalOptions="Center" MaxLength="6" FontSize="40" />
+            <Button Text="Confirmar" HorizontalOptions="Center" Margin="0,50,0,0" CornerRadius="20" WidthRequest="230" BackgroundColor="#EEDC00" TextColor="Black" Clicked="btn_confirmar_clicked" />
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>

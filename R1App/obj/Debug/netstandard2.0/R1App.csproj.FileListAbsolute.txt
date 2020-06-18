@@ -1,0 +1,38 @@
+D:\Projetos\R1App\R1App\bin\Debug\netstandard2.0\R1App.deps.json
+D:\Projetos\R1App\R1App\bin\Debug\netstandard2.0\R1App.dll
+D:\Projetos\R1App\R1App\bin\Debug\netstandard2.0\ref\R1App.dll
+D:\Projetos\R1App\R1App\bin\Debug\netstandard2.0\R1App.pdb
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\R1App.csprojAssemblyReference.cache
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\R1App.AssemblyInfoInputs.cache
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\R1App.AssemblyInfo.cs
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\R1App.dll
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\ref\R1App.dll
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\R1App.pdb
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\Cadastro\Signup.xaml.g.cs
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\SMS\SendSMS.xaml.g.cs
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\Master\MainPage.xaml.g.cs
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\Master\Navigation\MinhaConta.xaml.g.cs
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\Master\Navigation\Orcamento.xaml.g.cs
+D:\Projetos\R1App\R1App\obj\Debug\netstandard2.0\Master\Navigation\QuemSomos.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\bin\Debug\netstandard2.0\R1App.deps.json
+D:\Projetos\42 Labs\R1App\R1App\bin\Debug\netstandard2.0\R1App.dll
+D:\Projetos\42 Labs\R1App\R1App\bin\Debug\netstandard2.0\ref\R1App.dll
+D:\Projetos\42 Labs\R1App\R1App\bin\Debug\netstandard2.0\R1App.pdb
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\R1App.csprojAssemblyReference.cache
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\Cadastro\Signup.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\Master\MainPage.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\Master\Navigation\Orcamento.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\Master\Navigation\QuemSomos.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\Master\Navigation\Usuario\EditarConta.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\Master\Navigation\Usuario\MinhaConta.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\SMS\SendSMS.xaml.g.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\R1App.csproj.CoreCompileInputs.cache
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\R1App.AssemblyInfoInputs.cache
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\R1App.AssemblyInfo.cs
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\R1App.dll
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\ref\R1App.dll
+D:\Projetos\42 Labs\R1App\R1App\obj\Debug\netstandard2.0\R1App.pdb

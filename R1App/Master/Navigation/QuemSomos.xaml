@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             mc:Ignorable="d"
+             x:Class="R1App.Master.Navigation.QuemSomos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!---Cabeçalho-->
+                <RelativeLayout HeightRequest="220">
+                    <Image Aspect="AspectFill" Source="quemsomos1.jpg" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}"/>
+                    <Button Opacity=".9" BackgroundColor="#EEDC00" Text="Faça seu orçamento" Margin="15" FontSize="10" HeightRequest="34" CornerRadius="5"/>
+                    <Label Text="GRUPO R1" TextColor="White" FontSize="33" x:Name="GrupoR1"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.7}" 
+                           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.3}" />
+                    <Label Text="Quem Somos" TextColor="White" FontSize="20"
+                           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=GrupoR1, Property=Y, Factor=1,Constant=35}" 
+                           RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=GrupoR1, Property=X, Factor=1,Constant=18}" />
+                </RelativeLayout>
+                <!---Sobre R1-->
+                <Label VerticalOptions="Start" Text="R1 Soluções Audiovisuais e planejamento para eventos corporativos." HorizontalOptions="End" HorizontalTextAlignment="End" Padding="15,0" FontSize="24" FontAttributes="Italic" TextColor="Black" />
+                <Label Text="Mais do que uma simples locação ou entrega de equipamentos, nós estamos preocupados com o sucesso do seu evento. Por essa razão, nos envolvemos e planejamos todas as etapas para que a execução do projeto seja perfeita."
+                       HorizontalTextAlignment="End" Padding="15" />
+                <!---Cronologia-->
+                <Grid ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout BackgroundColor="#EEDC00" Padding="0,50">
+                        <Label Text="2004" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#00A3B0" VerticalOptions="Center" />
+                    </StackLayout>
+                    <RelativeLayout Grid.Column="1" Grid.ColumnSpan="4" BackgroundColor="Black">
+                        <Label Text="Fundação da R1 Soluções Audiovisuais. Nossa meta era solucionar as necessidades de equipamentos e montagem de eventos." HorizontalTextAlignment="End" TextColor="#EEDC00" Padding="20,30"/>
+                    </RelativeLayout>
+                </Grid>
+                <Grid ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout BackgroundColor="#EEDC00" Padding="0,50">
+                        <Label Text="2016" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#00A3B0" VerticalOptions="Center" />
+                    </StackLayout>
+                    <RelativeLayout Grid.Column="1" Grid.ColumnSpan="4" BackgroundColor="Black">
+                        <Label Text="R1 Adquire a empersa TES - Cenografia Ecoeficiente. Empresa especializada em tecido tencionado." HorizontalTextAlignment="End" TextColor="#EEDC00" Padding="20,30"/>
+                    </RelativeLayout>
+                </Grid>
+                <Grid ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout BackgroundColor="#EEDC00" Padding="0,50">
+
+                        <Label Text="2019" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#00A3B0" VerticalOptions="Center" />
+                    </StackLayout>
+                    <RelativeLayout Grid.Column="1" Grid.ColumnSpan="4" BackgroundColor="Black">
+                        <Label Text="Nos tornamos referência no mercado de eventos e estamos sempre buscando novos patamares e desafios." HorizontalTextAlignment="End" TextColor="#EEDC00" Padding="20,30"/>
+                    </RelativeLayout>
+                </Grid>
+                <!---Infos R1-->
+                <Label HorizontalTextAlignment="Center" TextColor="#00A3B0" FontAttributes="Bold" Padding="15"
+                       Text="Atuamos há 12 anos no mercado de tecnologia para eventos corporativos. Estamos presentes em 4 cidades: São Paulo, Rio de Janeiro, Curitiba e Recife."  />
+                <Grid Padding="15" RowSpacing="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Atendemos diversos projetos, como:" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Black" />
+                    <Label Text="✔ Confraternizações" Grid.Row="1" />
+                    <Label Text="✔ Feiras e eventos" Grid.Row="2" />
+                    <Label Text="✔ Palestras e seminários" Grid.Row="3" />
+                    <Label Text="✔ Workshops e treinamentos" Grid.Row="4" />
+                    
+                    <Label Text="Nossos 3 pilares são:" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Black" Grid.Column="1" />
+                    <Label Text="✔ Alta tecnologia" Grid.Row="1" Grid.Column="1" Margin="20,0,0,0" />
+                    <Label Text="✔ Atendimento exclusivo" Grid.Row="2" Grid.Column="1" Margin="20,0,0,0" />
+                    <Label Text="✔ Motivação em equipe" Grid.Row="3" Grid.Column="1" Margin="20,0,0,0" />
+                </Grid>
+                <!---Empresas que fazem parte do grupo-->
+                <Label Text="Empersas do Grupo R1 Soluções Audiovisual" TextColor="Black" HorizontalTextAlignment="Center" />
+                <Image Source="logo_tes.png" HorizontalOptions="Center" />
+                <Label Text="A TES Cenografia é uma empresa líder no Brasil em cenografia e comunicação visual com tecido tensionado impresso em grandes formatos, para feiras, eventos, cenografia, PDV e Mali."
+                       HorizontalTextAlignment="Center" Padding="15" />
+                <Image Source="logo_prime.png" HorizontalOptions="Center" WidthRequest="200" />
+                <Label Text="A Prime Geradores é uma empresa consolidade e especialista em locação de geradores de energia elétrica. Possui infraestrutura de ponta, com equipamentos de grandes fornecedores mundiais e em diversas potências, desde geradores de 50 até mais de 2.000 KVAs." 
+                       HorizontalTextAlignment="Center" Padding="15"/>
+                <Image Source="Logo_42_Preto.png" HorizontalOptions="Center" WidthRequest="200" />
+                <Label Text="A 42 Labs é uma empresa de criatividade e tecnologia, especializado na construção de conteúdo e de soluções tecnológicas: mapping, apps para eventos, realidade aumentada e virtual, e muito mais."
+                       HorizontalTextAlignment="Center" Padding="15"/>
+            </StackLayout>
+            
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

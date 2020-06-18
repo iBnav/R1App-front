@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="R1App.Cadastro.Signup">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label Text="Precisamos conhecer você melhor! Para isso, preencha os campos abaixo" VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="25" />
+            <Entry Placeholder="Nome Completo" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" FontSize="25" Keyboard="Text" VerticalOptions="Center" WidthRequest="250" />
+            <Entry Placeholder="Email" Grid.Row="2" FontSize="25" Keyboard="Email" Margin="0,50,0,0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="250" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+            <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Cadastrar" Grid.Row="3" CornerRadius="20" WidthRequest="230" BackgroundColor="#EEDC00" Clicked="btn_Cadastrar_Clicked" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
